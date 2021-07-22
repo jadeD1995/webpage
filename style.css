@@ -1,0 +1,104 @@
+/*this is a comment*/
+p{color:chartreuse;
+ font-size: 30px;
+}  /*this changes the coour in the parahs*/
+
+h1{color: red;}/* makes everythink in headline 1 red*/
+
+h5{color: lawngreen;}
+
+h6 {color: lawngreen;}
+
+/*  this  a id*/
+#link{
+    font-size: 80px;
+}
+
+.textalign{
+    text-align: center;
+}
+
+
+
+body {background-color: black;}
+/* */
+img{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+/*id*/
+#animation{
+    width: 480px;
+    height: 480px;
+    background:  url('replace.gif') left center;
+    background-size:cover ;
+    animation: play 1.5s steps(10)infinite;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#animation1{
+    width: 480px;
+    height: 480px;
+    background:  url('ufo.gif') left center;
+    background-size:cover ;
+    animation: play 1.5s steps(10)infinite;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#animation2{
+    width: 480px;
+    height: 480px;
+    background:  url('beammeup.webp') left center;
+    background-size:cover ;
+    animation: play 1.5s steps(10)infinite;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#animation3{
+    width: 480px;
+    height: 480px;
+    background:  url('R\ \(1\).gif') left center;
+    background-size:cover ;
+    animation: play 1.5s steps(10)infinite;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*  flex box */
+* body{
+    box-sizing: border-box;
+}
+
+.container {
+    background-color:gray;
+    display: flex;
+    justify-content: center;
+    min-height: 50vh;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    color :red;
+    background-color:black;
+    width: 50%;
+    height: 45%;
+    font-size: 100px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 15px;
+
+   
+}
+
